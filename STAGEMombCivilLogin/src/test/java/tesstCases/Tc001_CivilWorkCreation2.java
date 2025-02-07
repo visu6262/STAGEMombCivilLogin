@@ -55,8 +55,8 @@ public class Tc001_CivilWorkCreation2 extends BaseClass{
 		String date="20";
 
 		// Sanction pdf upload file
-		String path="C:\\Users\\91939\\eclipse-workspace\\STAGEMombCivilLogin\\testData\\Medchal.pdf";   //taking pdf file from testData
-
+		//String path="C:\\Users\\91939\\eclipse-workspace\\STAGEMombCivilLogin\\testData\\Medchal.pdf";   //taking pdf file from testData
+		String path=System.getProperty("user.dir")+"\\testData\\HYDERABAD.pdf";
 
 		loginPage lp=new loginPage(driver);
 		

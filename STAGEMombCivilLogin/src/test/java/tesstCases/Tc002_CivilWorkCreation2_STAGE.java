@@ -51,8 +51,8 @@ public class Tc002_CivilWorkCreation2_STAGE extends BaseClass{
 		String date="10";
 
 		// Sanction pdf upload file
-		String path="C:\\Users\\91939\\eclipse-workspace\\STAGEMombCivilLogin\\testData\\Suryapet_PO.pdf";   //taking pdf file from testData
-
+		//String path="C:\\Users\\91939\\eclipse-workspace\\STAGEMombCivilLogin\\testData\\Suryapet_PO.pdf";   //taking pdf file from testData
+		String path=System.getProperty("user.dir")+"\\testData\\HYDERABAD.pdf";
 
 		loginPage lp=new loginPage(driver);
 		//		

@@ -6,8 +6,9 @@
       <class name="tesstCases.Tc001_CivilWorkCreation2">
         <methods>
           <include name="teardown"/>
+          <include name="testlogout"/>
           <include name="setup"/>
-          <include name="workcreation" invocation-numbers="16 4 22 23 8 24 25 13"/>
+          <include name="workcreation" invocation-numbers="0 1 2 3 4"/>
         </methods>
       </class> <!-- tesstCases.Tc001_CivilWorkCreation2 -->
     </classes>
